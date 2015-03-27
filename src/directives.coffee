@@ -29,3 +29,11 @@ angular.module('swUtils')
             scope.$watch attrs.swLoading, (value) ->
                 loadingLayer.toggle(value)
     }
+
+.directive 'swSelectOnClick', ->
+    return {
+        restrict: 'A'
+        link: (scope, element, attrs) ->
+            element.on 'click', ->
+                this.select()
+    }
