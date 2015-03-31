@@ -1,3 +1,2 @@
 .idea
-#src/**/*.js
-#styles/utils.css
+node_modules

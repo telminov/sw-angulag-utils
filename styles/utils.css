@@ -13,5 +13,5 @@
     background-color: white;
     opacity: 0.5; }
   .sw-loading-container .loading:after {
-    background: url("../img/spinner.gif") no-repeat center center;
+    background: url('../img/spinner.gif') no-repeat center center;
     z-index: 100; }
