@@ -11,7 +11,7 @@ gulp.task('coffee', function() {
     gulp.src('./src/*.coffee')
         .pipe(sourcemaps.init())
         .pipe(coffee().on('error', gutil.log))
-        .pipe(concat('app.js'))
+        .pipe(concat('sw-angular-utils.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./'));
 });
@@ -27,7 +27,7 @@ gulp.task('compress', function() {
         .pipe(uglify({
             mangle: false
         }))
-        .pipe(rename('app.min.js'))
+        .pipe(rename('sw-angular-utils.min.js'))
         .pipe(gulp.dest('./'))
 });
 

@@ -1,6 +1,6 @@
 {
   "name": "sw-angular-utils",
-  "mane": "./app.js",
+  "mane": "./sw-angular-utils.js",
   "version": "0.0.0",
   "homepage": "https://github.com/telminov/sw-angular-utils",
   "authors": [
