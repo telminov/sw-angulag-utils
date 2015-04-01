@@ -23,7 +23,7 @@ gulp.task('scss', function () {
 });
 
 gulp.task('compress', function() {
-    gulp.src('./app.js')
+    gulp.src('./sw-angular-utils.js')
         .pipe(uglify({
             mangle: false
         }))

@@ -1,12 +1,12 @@
 {
   "name": "sw-angular-utils",
-  "mane": "./sw-angular-utils.js",
+  "main": "./sw-angular-utils.js",
   "version": "0.0.0",
   "homepage": "https://github.com/telminov/sw-angular-utils",
   "authors": [
     "Telminov Sergey <telminov@soft-way.biz>"
   ],
-  "description": "Soft Way company AngulagJS utils",
+  "description": "Soft Way company AngularJS utils",
   "license": "MIT",
   "ignore": [
     "node_modules",
